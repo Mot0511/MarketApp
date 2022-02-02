@@ -1,0 +1,107 @@
+<html>
+<head lang="ru">
+<title>MarketApp - сайт для бесплатной публикации программ, игр и приложений</title>
+<link rel="shurt icon" href="img/A.png"><meta charset="utf-8">
+
+<style>
+	.shapka{background: DimGray; height: 100px; width: 100%; position: absolute; left: 0px; top: 0px;}
+	.menu{background: Gray; width: 100%; height: 50px; position: absolute; left: 0px; top: 100px;}
+	.content{background: DimGray; height: 1200px; width: 100%; position: absolute; left: 0px; top: 150px;}
+	.btaccount{background: DarkGrey; height: 50px; width: 130px; position: absolute; right: 25px; top: 25;}
+	.newprog{background: DarkGrey; height: 50px; width: 150px; position: absolute; right: 158px; top: 25; font-size: 10px;}
+
+
+	
+	p{color: white}
+	h1{color: white;}
+	h2{color: white;}
+	h3{color: white;}
+	h4{color: white;}
+	h5{color: white;}
+	h6{color: white;}
+	
+	.search{background: DarkGrey; width: 400px; height: 50px; color: white;}
+	.searchbt{background: DarkGrey; width: 100px; height: 50px;}	
+	
+	.text{background: DarkGrey; width: 400px; height: 40px;}
+	.textarea{background: DarkGrey; width: 400px; height: 100px;}
+	.sub{background: DarkGrey; width: 400px; height: 30px;}
+
+
+</style>
+</head>
+<body>
+
+<div class="shapka">
+
+	<img src="img/A.png" width="100px" height="100px" align="left">
+	<h2><span style="width: 400px; position: absolute; top: 3px;">MarketApp - сайт для бесплатной публикации программ, игр и приложений</span></h2>
+	<form method="post" action="index.html" style="position: absolute; left: 500px; top: 25px;">
+	<input type="search" placeholder="Поиск" class="search">
+	<input type="submit" value="Найти" class="searchbt">
+	</form>
+	
+	<form action="index.html">
+	<input type="submit" href="index.html" class="btaccount" value="Выйти из аккаунта">
+	</form>
+	
+	<form action="newprog.html">
+	<input type="submit" class="newprog" value="Добавить новое приложение">
+	</form>
+
+</div>
+</div>
+<div class="menu">
+<a href="index.html"><h2><span style="position: absolute; left: 400px; top: 5px;">Игры</span></h2></a>
+<a href="prog.html"><h2><span style="position: absolute; left: 500px; top: 5px;">Программы</span></h2></a>
+<a href="app.html"><h2><span style="position: absolute; left: 670px; top: 5px;">Приложения</span></h2></a>
+<a href="other.html"><h2><span style="position: absolute; left: 850px; top: 5px;">Другое</span></h2></a>
+
+</div>
+<div class="content">
+	<div style="width: 49%; height: 997px; position: absolute; top: 3px;">
+	<center><h2>Заполните форму игры/программы/приложения</h2></center>
+	<center><form method="post" action="newprog.php" enctype="multipart/form-data" name="form">
+	<input type="text" placeholder="Название игры/программы/приложения" class="text" name="name" id="name" required><br />
+<textarea placeholder="Описание игры/программы/приложения" name="des" class="textarea" required>
+</textarea>
+	
+	<h3>Выберите тип (выбирите 1 вариант)</h3>	
+	<p><label for="r1">Игра</label></p>
+	<input type="checkbox" name="check1" id="r1">
+	<p><label for="r2">Программа</label></p>
+	<input type="checkbox" name="check2" id="r2">
+	<p><label for="r3">Приложение</label></p>
+	<input type="checkbox" name="check3" id="r3">
+	<p><label for="r4">Другое</label></p>
+	<input type="checkbox" name="check4" id="r4" ><br />
+	
+	<h3>Выберите иконку приложения (.ico, .png, .jpg, .bmp)</h3>
+	<input type="file" name="icon" ><br />
+	
+	<h3>Выберите скриншоты (.png, .jpg, .bmp)</h3>
+	<input type="file" name="screensh1" required><br />
+	<input type="file" name="screensh2" required><br />
+	<input type="file" name="screensh3" required><br />
+	<input type="file" name="screensh4" required><br />
+	
+	<h3>Выберите файл самой игры/программы/приложения (диструбутив или архив)(.exe, .msi, .apk, .dmg, .zip, .rar, .7z)</h3>
+	<input type="file" name="file" required><br /><br />
+
+	<h3>Введите данные аккаунта для проверки</h3>
+	<input type="text" placeholder="Введите ваш логин" class="text" name="login" required min="0" max="10"><br />
+	<input type="email" placeholder="Введите вашу электронную почту" class="text" name="email" required><br />
+	<input type="password" placeholder="Введите ваш пароль" class="text" name="pass" required min="0" max="10"><br /><br />
+	
+
+	<input type="submit" value="Отправить игру/программу/приложение на проверку" name="sub" class="sub">
+	</form></center>
+
+
+	</div>
+
+</div>
+
+
+</body>
+</html>

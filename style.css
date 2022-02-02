@@ -1,0 +1,12 @@
+.shapka{background: DimGray; height: 100px; width: 100%; position: absolute; left: 0px; top: 0px;}
+.menu{background: Gray; width: 100%; height: 50px; position: absolute; left: 0px; top: 100px;}
+.content{background: dimgrey; height: 1000px; width: 100%; position: absolute; left: 0px; top: 150px;}
+.btaccount{background: DarkGrey; height: 50px; width: 250px; position: absolute; right: 25px; top: 25;}
+.appdiv{width: 200px; height: 350px; background: grey; float: left; border: 3px solid dimgrey;}
+.miniappdiv{position: relative; top: 50px; left: 10px;	background: grey; width: 500px; height: 110px; float: top;}
+.happ{position: relative; left: 60px; top: 5px;}
+.btdownloadapp{width: 230px; background: royalblue; position: absolute; right: 10px; top: 5px; height: 30px;}
+.btpageapp{width: 230px; background: darkgrey; position: absolute; right: 10px; top: 40px; height: 30px;}
+.btdelapp{width: 230px; background: red; position: absolute; right: 10px; top: 75; height: 30px;}
+.minides{position: absolute; left: 60px; top: 25px;}
+.imgapp{position: absolute; left: 5px; top: 5px; bottom: 5px;}
