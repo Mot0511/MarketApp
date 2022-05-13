@@ -1,0 +1,13 @@
+error_reporting(0);
+$nfr = scandir('rates/games');
+$rates = array();
+
+
+for ($i = 2; $i < 6; $i++){
+  $frate = file_get_contents('rates/games/'.$nfr[$i]);
+  $ratear = explode(' ', $frate);
+  //$countrate = count($ratear, COUNT_RECURSIVE);
+  var_dump($ratear);
+
+  array_push($rates, $frate);
+}

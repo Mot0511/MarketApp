@@ -1,0 +1,27 @@
+<?php $h1 = 'index.html';?>
+<div id="<?php echo $h1;?>" >
+<div class="appdiv" id="index.html">
+<?php $apprate = array(); ?>
+<img src="" width="50px" height="50px" style="position: absolute;">
+<center>
+<h3 id="h0"><?php echo $h1;?></h3>
+<p>
+Краткое описание
+</p>
+<p>Разработчик приложения: <br /><?php $dev1 = 'Mot 0511'; echo $dev1?></p>
+<p>Платформа: <br /><?php $plat1 = 'Windows, macOS, android'; echo $plat1?></p>
+
+<p><?php $frates = file_get_contents('rates/games/'.$h1.'.txt'); $arates = explode(' ', $frates);
+$rate = array_sum($arates);
+array_push($apprate, $rate);
+echo 'Рейтинг приложения: '.$apprate[0];?></p>
+
+<form action="">
+<input type="submit" value="Скачать" style="position: relative; right: 50px; top: 30px; background: Royalblue; width: 90px; height: 40px;">
+</form>
+<form action="users/Mot 0511/games/index.html/page.php">
+<input type="submit" value="Подробнее" style="position: relative; right: -40px; top: -26px; background: Darkgrey; width: 90px; height: 40px; font-size: 14px;">
+</form>
+</center>
+</div>
+</div>

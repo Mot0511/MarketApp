@@ -1,0 +1,17 @@
+{
+ "short_name": "MarketApp",
+ "name": "MarketApp",
+ "icons": [
+       {
+     "src":"img/A.png",
+     "sizes": "300x300",
+     "type": "image/png"
+   }
+ ],
+
+ "start_url": "/",
+ "background_color": "#7ACCE5",
+ "theme_color": "#7ACCE5",
+ "orientation": "any",
+ "display": "standalone"
+}

@@ -1,0 +1,3 @@
+	<a href="index.html"><img src="img/games1.png" class="gamesbt" width="200px" height="60px" style="position: absolute; left: 10px; top: 120px;"></a>
+	<a href="index.html"><img src="img/prog1.png" class="progbt" width="200px" height="60px" style="position: absolute; left: 10px; top: 160px;"></a>
+	<a href="index.html"><img src="img/app1.png" class="appbt" width="200px" height="60px" style="position: absolute; left: 5px; top: 200px;"></a>

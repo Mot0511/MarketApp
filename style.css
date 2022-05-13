@@ -1,0 +1,112 @@
+p{color: white;}
+h1{color: white;}
+h2{color: white;}
+h3{color: white;}
+h4{color: white;}
+h5{color: white;}
+h6{color: white;}
+
+.btnewapp{position: absolute; right: 180px; top: 15px; width: 200px; height: 50px; background: DarkGrey;}
+.exitaccaunt{position: absolute; right: 15px; top: 15px; width: 150px; height: 50px; background: DarkGrey;}
+
+
+
+.liveinternet{position: absolute; right: 15px; bottom: 15px;}
+
+.mymoney{position: absolute; top: 10px; left: 10px;}
+.formbtaddmoney{position: absolute; right: 10px; top: 20px;}
+.btaddmoney{background: darkgrey; height: 30px;}
+
+.account_setting{position: absolute; top: 49%; left: 0px; background: grey; height: 49%; width: 98%;}
+.h_true_ad{position: absolute; top: 60px; left: 30px; color: white;}
+
+.save_setting_account{width: 400px; height: 40px; background: darkgrey; position: absolute; bottom: 15px; left: 15px;}
+
+
+
+.divsearch{position: absolute; left: 500px; top: 13px;}
+.search{background: DarkGrey; width: 300px; height: 50px; color: white;}
+.searchbt{background: DarkGrey; width: 60px; height: 50px;}
+
+
+.input_price{width: 100px; height: 40px; background: darkgrey;}
+
+.name{width: 400px; height: 40px; background: darkgrey;}
+.weybuy{width: 200px; height: 40px; background: darkgrey;}
+.hemail{width: 400px;}
+
+.btaccount{background: DarkGrey; height: 50px; width: 250px; position: absolute; right: 25px; top: 25;}
+.myappsh{position: absolute; left: 10px; top: 60px;}
+
+.appicon{position: absolute; left: 25px; top: 25px; width: 200px; height: 200px;}
+.appheading{position: absolute; left: 250px; top: 25px;}
+.appdes{position: absolute; left: 250px; top: 70px;}
+.appsystrebh{position: absolute; left: 25px; top: 240px;}
+.appsystreb{position: absolute; left: 25px; top: 280px;}
+.apptype{position: absolute; left: 580px; top: 31px;}
+
+.screenshh{position: absolute; left: 250px; top: 220px;}
+.screenshdiv{position: absolute; left: 250px; top: 250px;}
+.screensh1{position: absolute; left: 0px; top: 0px;}
+.screensh2{position: absolute; left: 310px; top: 0px;}
+.screensh3{position: absolute; left: 0px; top: 160px;}
+.screensh4{position: absolute; left: 310px; top: 160px;}
+
+.rateh{position: absolute; left: 150px; top: 320px; width: 300px;}
+
+.btrate{background: Darkgrey; width: 133px; height: 50px; position: absolute; left: 310px; top: 350px;}
+.rselect{background: DarkGrey; width: 120px; height: 50px; position: absolute; left: 180px; top: 350px;}
+
+.btdownload{background: Royalblue; width: 263px; height: 50px; position: absolute; left: 180px; top: 410px;}
+
+.newapps{width: 99%; height: 99%; border: solid grey 3px; position: absolute; top: 3px;}
+.download{position: relative; left: -24%; top: 6px; background: Royalblue; width: 49%; height: 35px; color: white;}
+.gopage{position: relative; left: 26%; top: -45px; background: Darkgrey; width: 49%; height: 35px; color: white;}
+
+
+.iconsite{width: 100px; height: 100px;}
+.heading{width: 350px; position: absolute; top: 3px;}
+
+.newapps{width: 49%; height: 99%; border: solid grey 3px; position: absolute; top: 3px;}
+.rec{width: 49%; height: 99%; border: solid grey 3px; position: absolute; left: 50%; top: 4px;}
+.appdiv{width: 200px; background: grey; float: left; border: 3px dimgrey solid;}
+
+.em1{position: absolute; left: 400px; top: 3px;}
+.em2{position: absolute; left: 500px; top: 3px;}
+.em3{position: absolute; left: 670px; top: 3px;}
+.em4{position: absolute; left: 850px; top: 3px;}
+.em5{position: absolute; left: 950px; top: 3px; font-size: 19px;}
+a{text-decoration: none;}
+
+.shapka{background: DimGray; height: 100px; width: 100%; position: absolute; left: 0px; top: 0px;}
+.menu{background: Gray; width: 100%; height: 50px; position: absolute; left: 0px; top: 100px;}
+.content{background: dimgrey; height: 1100px; width: 100%; position: absolute; left: 0px; top: 150px;}
+
+
+.miniappdiv{position: relative; top: 50px; left: 10px;	background: grey; width: 500px; height: 150px; float: top;}
+.happ{position: relative; left: 60px; top: 5px;}
+
+.text{background: DarkGrey; width: 400px; height: 40px;}
+.minitextarea{background: DarkGrey; width: 400px; height: 50px;}
+.textarea{background: DarkGrey; width: 400px; height: 100px;}
+.sub{background: DarkGrey; width: 400px; height: 30px;}
+
+.labelfile{color: white; background-color: darkgrey; width: 700px; height: 100px;}
+.footer{background: grey; width: 100%; height: 240px; position: absolute; top: 7000px; left: 1px;}
+
+.btdownloadapp{width: 230px; background: royalblue; position: absolute; right: 10px; top: 5px; height: 30px;}
+.btpageapp{width: 230px; background: darkgrey; position: absolute; right: 10px; top: 40px; height: 30px;}
+.btrn{width: 230px; background: darkgrey; position: absolute; right: 10px; top: 75; height: 30px;}
+.btdelapp{width: 230px; background: red; position: absolute; right: 10px; top: 110; height: 30px;}
+
+.minides{position: absolute; left: 60px; top: 25px;}
+.imgapp{position: absolute; left: 5px; top: 5px; bottom: 5px; width: 50px; height: 50px;}
+.ptype{position: absolute; top: 60px; left: 5px;}
+
+.return{width: 300px; height: 50px; background: Darkgrey;}
+.canceldel{width: 300px; height: 50px; background: red;}
+
+.newname{background: darkgrey; width: 300px; height: 30px;}
+.ranname{background: darkgrey; width: 300px; height: 30px;}
+
+.footer{background: grey; width: 100%; height: 290px; position: absolute; top: 4460px; left: 1px;}
